@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "analytics-mcp": {
+      "command": "analytics-mcp",
+      "env": {
+        "GOOGLE_APPLICATION_CREDENTIALS": "",
+        "GOOGLE_PROJECT_ID": ""
+      }
+    }
+  }
+}
