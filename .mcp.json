@@ -4,7 +4,7 @@
       "command": "analytics-mcp",
       "env": {
         "GOOGLE_APPLICATION_CREDENTIALS": "",
-        "GOOGLE_PROJECT_ID": ""
+        "GOOGLE_PROJECT_ID": "gamcp-493519"
       }
     }
   }
