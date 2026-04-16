@@ -1,10 +1,13 @@
 {
   "mcpServers": {
     "analytics-mcp": {
-      "command": "analytics-mcp",
+      "command": "/usr/local/bin/analytics-mcp-wrapper",
       "env": {
-        "GOOGLE_APPLICATION_CREDENTIALS": "",
-        "GOOGLE_PROJECT_ID": "gamcp-493519"
+        "GOOGLE_APPLICATION_CREDENTIALS": "/home/user/.config/gcloud/application_default_credentials.json",
+        "GOOGLE_PROJECT_ID": "gamcp-493519",
+        "REQUESTS_CA_BUNDLE": "/home/user/.config/grpc-ca-bundle.pem",
+        "SSL_CERT_FILE": "/home/user/.config/grpc-ca-bundle.pem",
+        "GRPC_DEFAULT_SSL_ROOTS_FILE_PATH": "/home/user/.config/grpc-ca-bundle.pem"
       }
     }
   }
